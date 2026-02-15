@@ -1,169 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Steganography – Hidden Communication</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<!-- ===================== HEADER ===================== -->
+<div align="center">
 
-<style>
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: white;
-    text-align: center;
-}
+<h1>🔐 Steganography</h1>
+<h3><em>The Art of Hidden Communication</em></h3>
 
-.hero {
-    padding: 80px 20px;
-}
+<p>
+  Secure • Invisible • Verified
+</p>
 
-h1 {
-    font-size: 3.5em;
-    background: linear-gradient(to right, #00f2fe, #4facfe);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+<!-- Badges -->
+<img src="https://img.shields.io/badge/Security-SHA--256-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Formats-Images%20%7C%20Audio%20%7C%20Video-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Max%20File%20Size-50MB-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
 
-.badges img {
-    margin: 10px;
-}
-
-.section {
-    padding: 50px 10%;
-}
-
-.card {
-    background: rgba(255,255,255,0.1);
-    border-radius: 15px;
-    padding: 25px;
-    margin: 20px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 30px rgba(0,255,255,0.3);
-}
-
-.features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap: 30px;
-}
-
-.team {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    gap: 30px;
-}
-
-.member {
-    background: rgba(0,0,0,0.4);
-    border-radius: 15px;
-    padding: 20px;
-}
-
-.stats {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-    margin-top: 40px;
-}
-
-.stat {
-    background: rgba(255,255,255,0.1);
-    padding: 25px 40px;
-    border-radius: 15px;
-    font-size: 1.3em;
-}
-
-footer {
-    padding: 40px;
-    background: rgba(0,0,0,0.4);
-    margin-top: 60px;
-}
-</style>
-</head>
-
-<body>
-
-<div class="hero">
-    <h1>🔐 Steganography</h1>
-    <p><b>The Art of Hidden Communication</b></p>
-
-    <div class="badges">
-        <img src="https://img.shields.io/badge/Security-SHA256-green">
-        <img src="https://img.shields.io/badge/Encryption-Advanced-blue">
-        <img src="https://img.shields.io/badge/Formats-Images%20%7C%20Audio%20%7C%20Video-orange">
-        <img src="https://img.shields.io/badge/Status-Active-brightgreen">
-    </div>
-</div>
-
-<div class="section">
-    <h2>🔒 Secure Your Data</h2>
-    <p>
-        Steganography is the practice of concealing secret messages inside other media files.
-        This system ensures **covert communication** by hiding data so that no one even knows it exists.
-    </p>
-</div>
-
-<div class="section features">
-
-    <div class="card">
-        <h2>🔒 Encode Data</h2>
-        <p>
-            Hide secret messages inside:
-            <br><b>PNG, JPG, JPEG, MP3, MP4</b><br><br>
-            Uses advanced <b>LSB (Least Significant Bit)</b> encoding
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>🔓 Decode Data</h2>
-        <p>
-            Extract hidden messages securely with:
-            <br><b>Password Authentication</b><br>
-            <b>SHA-256 Hash Verification</b>
-        </p>
-    </div>
+<br/><br/>
 
 </div>
 
-<div class="section">
-    <h2>👥 Meet Our Team</h2>
+<hr/>
 
-    <div class="team">
-        <div class="member">
-            <h3>👩🏻‍💻 Javeria Faisal</h3>
-            <p>F24605017</p>
-        </div>
-        <div class="member">
-            <h3>👩🏻‍💻 Bisma Fatima</h3>
-            <p>F24605036</p>
-        </div>
-        <div class="member">
-            <h3>👩🏻‍💻 Ayesha Imran</h3>
-            <p>F24605019</p>
-        </div>
-        <div class="member">
-            <h3>👩🏻‍💻 Sawaira Anwar</h3>
-            <p>F24605041</p>
-        </div>
-    </div>
+<!-- ===================== ABOUT ===================== -->
+<h2>📌 About the Project</h2>
+
+<p>
+<strong>Steganography</strong> is the practice of concealing secret information within ordinary digital media such as images, audio, or video files.
+Unlike encryption, which hides the <em>content</em> of a message, steganography hides the <em>existence</em> of the message itself — ensuring secure and covert communication.
+</p>
+
+<p>
+This project implements advanced <strong>LSB (Least Significant Bit)</strong> techniques combined with modern cryptographic validation for maximum security.
+</p>
+
+<hr/>
+
+<!-- ===================== FEATURES ===================== -->
+<h2>✨ Features</h2>
+
+<h3>🔒 Encode Data</h3>
+<ul>
+  <li>Hide secret messages inside media files</li>
+  <li>Uses advanced LSB encoding</li>
+  <li>Supports multiple file formats</li>
+</ul>
+
+<p><strong>Supported Encoding Formats:</strong></p>
+<ul>
+  <li>🖼 PNG</li>
+  <li>🖼 JPG</li>
+  <li>🖼 JPEG</li>
+  <li>🎵 MP3</li>
+  <li>🎬 MP4</li>
+</ul>
+
+<h3>🔓 Decode Data</h3>
+<ul>
+  <li>Extract hidden messages securely</li>
+  <li>Password-based authentication</li>
+  <li>SHA-256 file integrity verification</li>
+</ul>
+
+<hr/>
+
+<!-- ===================== SECURITY ===================== -->
+<h2>🛡 Security Highlights</h2>
+
+<ul>
+  <li>🔐 SHA-256 hashing for data integrity</li>
+  <li>✅ Password-protected message extraction</li>
+  <li>🧪 File tampering detection</li>
+  <li>📦 Maximum supported file size: <strong>50MB</strong></li>
+</ul>
+
+<hr/>
+
+<!-- ===================== STATS ===================== -->
+<h2>📊 Project Overview</h2>
+
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>Supported Formats</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Security Level</td>
+    <td>SHA-256</td>
+  </tr>
+  <tr>
+    <td>Max File Size</td>
+    <td>50MB</td>
+  </tr>
+</table>
+
+<hr/>
+
+<!-- ===================== TEAM ===================== -->
+<h2>👥 Meet Our Team</h2>
+<p>Passionate developers behind this steganography system</p>
+
+<table>
+  <tr>
+    <td align="center">👩🏻‍💻<br/><strong>Javeria Faisal</strong><br/>F24605017</td>
+    <td align="center">👩🏻‍💻<br/><strong>Bisma Fatima</strong><br/>F24605036</td>
+    <td align="center">👩🏻‍💻<br/><strong>Ayesha Imran</strong><br/>F24605019</td>
+    <td align="center">👩🏻‍💻<br/><strong>Sawaira Anwar</strong><br/>F24605041</td>
+  </tr>
+</table>
+
+<hr/>
+
+<!-- ===================== FOOTER ===================== -->
+<div align="center">
+<p>
+  🔐 <strong>Steganography</strong> — Where secrecy meets creativity  
+</p>
+
+<p>
+  ⭐ If you like this project, don’t forget to star the repository!
+</p>
 </div>
-
-<div class="section">
-    <h2>📊 Project Stats</h2>
-
-    <div class="stats">
-        <div class="stat">📁 Supported Formats<br><b>5</b></div>
-        <div class="stat">🔐 Security Level<br><b>SHA-256</b></div>
-        <div class="stat">📦 Max File Size<br><b>50MB</b></div>
-    </div>
-</div>
-
-<footer>
-    <p>© 2026 – Steganography System | Secure Hidden Communication</p>
-</footer>
-
-</body>
-</html>
-
